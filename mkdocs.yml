@@ -1,3 +1,11 @@
 site_name: Example MKDocs
 site_url: https://sch6393.github.io/example-mkdocs/
-theme: material
+
+theme:
+  name: material
+  language: ko
+  
+nav:
+  - Home: index.md
+  - test:
+      - 개요: test/index.md
